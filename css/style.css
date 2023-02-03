@@ -127,7 +127,7 @@ header.shadow {
   flex-direction: column;
 }
 .social a {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-size: 22px;
   color: var(--text-color);
 }
@@ -150,7 +150,7 @@ header.shadow {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 1px;
+  column-gap: 10px;
   /* gap: 1rem; */
   margin-top: 2rem;
   align-items: flex-start;
