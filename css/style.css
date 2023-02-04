@@ -263,15 +263,17 @@ span {
 }
 .portfolio-img {
   overflow: hidden;
+
   border-radius: 0.5rem;
 }
 .portfolio-img img {
   width: 100%;
   display: block;
+  box-shadow: #0f0c27;
 }
 .portfolio-img img:hover {
   transform: scale(1.1);
-  transition: 1s;
+  transition: 0.4s;
 }
 .contact-form {
   display: grid;
@@ -312,6 +314,7 @@ form textarea {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-left: 38%;
+  font-weight: 700;
 }
 .contact-button:hover {
   background: var(--hover);
@@ -321,7 +324,7 @@ form textarea {
   place-items: center;
   padding: 20px;
   background: transparent;
-  color: var(--text-color);
+  color: var(--text-color-2);
 }
 .footer h2 {
   font-size: 1.5rem;
@@ -332,7 +335,7 @@ form textarea {
   font-size: 0.9rem;
 }
 .footer-social a i {
-  color: var(--text-color);
+  color: var(--text-color-2);
   /* font-size: 50px; */
   margin-left: 6px;
   text-align: center;
@@ -344,7 +347,7 @@ form textarea {
 }
 
 .footer-social a:hover {
-  color: var(--hover);
+  color: var(--text-color);
 }
 
 .copyright {
@@ -362,7 +365,7 @@ form textarea {
 }
 
 .copyright p {
-  color: var(--text-color);
+  color: var(--text-color-2);
   font-weight: normal;
   font-size: 0.7rem;
 }
@@ -485,7 +488,7 @@ form textarea {
   }
   .contact-button {
     margin-left: 25%;
-    color: var(--main-color);
+    /* color: var(--main-color); */
   }
   .contact-button:hover {
     background: var(--hover);
