@@ -79,8 +79,10 @@ header.shadow {
   font-weight: 500;
 }
 .navbar a:hover {
+  font-weight: 600;
   color: var(--hover);
 }
+
 #menu-icon {
   font-size: 24px;
   cursor: pointer;
