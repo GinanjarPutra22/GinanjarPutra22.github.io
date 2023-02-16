@@ -465,6 +465,8 @@ form textarea {
     margin-left: 25%;
   }
 }
+
+/*--------------MOBILE-------------- */
 @media (max-width: 340px) {
   :root {
     --big-font: 1.7rem;

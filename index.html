@@ -227,17 +227,28 @@
         </div>
     </section>
     <!-- Contact -->
-    <section class="contact" id="contact">
+    <section class="contact justify-content-center" id="contact">
         <div class="heading">
             <h2>Contact</h2>
             <span>If you are interested in working with me, you can contact me</span>
         </div>
         <div class="contact-form">
+
             <form action="" name="web-portfolio-contact-form">
                 <input type="text" placeholder="Your Name">
                 <input type="email" name="nama" id="" placeholder="Your Email">
                 <textarea name="email" id="" cols="90" rows="10" placeholder="Write Message Here..."></textarea>
-                <input type="button submit" name="pesan" value="SEND Message" class="btn contact-button">
+                <!-- <input type="button submit" name="pesan" value="SEND Message" class="btn btn-primary"> -->
+
+                <button class="btn btn-primary contact-button d-none " type="submit" disabled>Send</button>
+
+                <!-- Loading BTN -->
+                <!-- <button class="btn btn-primary contact-button d-none" type="button" disabled>
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    Loading...
+                </button> -->
+                <!-- End Loading Btn -->
+
                 <!-- <a href="https://wa.me/+6285804898461" class="btn contact-button" target="_blank">Contact Message</a>
                  -->
 
