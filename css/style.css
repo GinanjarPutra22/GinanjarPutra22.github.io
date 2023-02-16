@@ -162,7 +162,9 @@ header.shadow {
 .about-img img {
   width: 60%;
   border-radius: 0.5rem;
+  display: flexbox;
   justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .about-text p {
@@ -275,6 +277,7 @@ span {
 }
 .portfolio-img img:hover {
   transform: scale(1.1);
+
   transition: 0.4s;
 }
 .contact-form {
