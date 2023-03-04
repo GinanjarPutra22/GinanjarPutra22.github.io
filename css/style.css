@@ -280,6 +280,18 @@ span {
 
   transition: 0.4s;
 }
+.container-contact {
+  border: #0933c7 solid;
+  padding: auto;
+  border-radius: 8px;
+  margin: 150px 120px;
+}
+
+.isi-contact {
+  align-items: center;
+  padding: 48px 60px;
+  text-align: center;
+}
 .contact-form {
   display: grid;
   place-items: center;
@@ -311,14 +323,16 @@ form textarea {
   height: 200px;
 }
 .contact-button {
+  margin-top: 40px;
   width: 160px;
   cursor: pointer;
   background: var(--main-color);
   color: #fff;
   justify-content: center;
-  text-transform: uppercase;
+  align-items: center;
+  text-transform: capitalize;
   letter-spacing: 1px;
-  margin-left: 38%;
+  /* margin-left: 38%; */
   font-weight: 700;
 }
 .contact-button:hover {
@@ -445,7 +459,7 @@ form textarea {
   .about-img {
     margin-bottom: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: end;
   }
   .skills-container {
     grid-template-columns: 1fr;
@@ -462,7 +476,7 @@ form textarea {
     width: 300px;
   }
   .contact-button {
-    margin-left: 25%;
+    /* margin-left: 25%; */
   }
 }
 
@@ -472,7 +486,18 @@ form textarea {
     --big-font: 1.7rem;
     --medium-font: 1.1rem;
   }
+  .container-contact {
+    border: #b4c709 solid;
+    padding: ;
+    border-radius: 8px;
+    /* margin: 20px 10px; */
+  }
 
+  .isi-contact {
+    align-items: center;
+    padding: 48px 60px;
+    text-align: center;
+  }
   .home-text span {
     font-size: 1rem;
   }
@@ -494,7 +519,7 @@ form textarea {
     width: 300px;
   }
   .contact-button {
-    margin-left: 25%;
+    /* margin-left: 25%; */
     /* color: var(--main-color); */
   }
   .contact-button:hover {
